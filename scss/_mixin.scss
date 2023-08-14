@@ -1,0 +1,11 @@
+@mixin tarjeta($width){
+    width:$width ;
+    margin: 20px;
+    background-color: $bg-color;
+    padding: 10px;
+    font-family: 'Lobster', cursive;
+    border: none;
+    border-radius: 6px;
+    color:$color;
+    box-shadow: $shadowm;
+}

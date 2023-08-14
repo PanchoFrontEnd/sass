@@ -1,0 +1,19 @@
+.quienessomos{
+    color: rgb(231, 172, 8);
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    text-shadow:$sombreado;
+}
+.carousel-item{
+    height: auto;
+    object-fit: cover;
+}
+.descripcion{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    padding: 20px;
+    border: solid 3px #000000;
+    border-radius: 5px;
+    
+}

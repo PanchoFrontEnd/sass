@@ -1,0 +1,55 @@
+.pie-de-pagina{
+    background-color: $bg-color;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    grid-template-columns:repeat(
+        auto-fit,minmax(150px, 1fr)
+
+    ); 
+    gap: 32px;
+    .datos{
+        font-size: 15px;
+        color: azure;
+        display: block;
+        align-items: center;
+        font-family: 'Lobster', cursive;
+        display: flex;
+        flex-direction: row;
+    
+    }
+    .mapa-folder{
+        width: 150px;
+        height: 150px;
+        border: 5px solid #040202;
+        background-color: $bg-color;
+        border-radius: 10px;
+        margin: 5px;
+    }
+    .logo-insta{
+        width: 50px;
+        height: 50px;
+        border: 5px solid #040202;
+        border-radius: 15px;
+        box-shadow: $shadowm;
+    }
+    .logo-face{
+        width: 50px;
+        height: 50px;
+        border: 5px solid #040202;
+        border-radius: 15px;
+        background-color: white;
+        box-shadow: $shadowm;
+    
+    }
+    .logo-twitter{
+        width: 50px;
+        height: 50px;
+        border: 5px solid #040202;
+        border-radius: 15px;
+        box-shadow: $shadowm;
+        
+    }
+}

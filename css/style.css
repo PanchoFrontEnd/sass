@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.usuario button, .tarjeta button {
+  background-color: rgb(231, 172, 8);
+  padding: 10px 17px;
+  margin: 5px;
+  border-radius: 5px;
+  border: none;
+  transition: 0, 5s;
+}
+.usuario button:hover, .tarjeta button:hover {
+  background-color: rgb(200, 80, 148);
+}
+
+.tarjeta select {
+  background-color: rgb(231, 172, 8);
+  padding: 5px 5px;
+  border-radius: 5px;
+  border: none;
+  margin: 5px;
+  transition: 0, 5s;
+}
+.tarjeta select:hover {
+  background-color: rgb(200, 80, 148);
+}
+
+.navegador {
+  background-color: rgba(188, 85, 240, 0.951);
+}
+.navegador .fa-bars {
+  display: none;
+}
+@media (max-width: 768px) {
+  .navegador .fa-bars {
+    margin: 5px;
+    font-size: 35px;
+    color: azure;
+    display: block;
+  }
+}
+.navegador ul {
+  list-style: none;
+  display: flex;
+}
+.navegador ul li a {
+  color: azure;
+  text-decoration: none;
+  display: block;
+  padding: 10px 10px;
+  font-size: 20px;
+  font-family: "Lobster", cursive;
+}
+@media (max-width: 768px) {
+  .navegador ul li a {
+    color: azure;
+  }
+}
+@media (max-width: 768px) {
+  .navegador ul {
+    position: absolute;
+    left: -290px;
+    width: 220px;
+    height: 75vh;
+    background-color: rgba(188, 85, 240, 0.951);
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    transition: 0.7s;
+    border-radius: 10px;
+    border: 3px solid #0f0d0d;
+    z-index: 4;
+  }
+}
+@media (max-width: 768px) {
+  .navegador ul:hover {
+    left: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .navegador .fa-bars:hover + ul {
+    left: 0;
+  }
+}
+.tienda {
+  color: rgb(231, 172, 8);
+  background-color: rgba(188, 85, 240, 0.951);
+  text-align: center;
+  font-size: 60px;
+  font-family: "Lobster", cursive;
+  text-shadow: 3px 3px 6px #040202;
+}
+
+.catalogo {
+  color: rgb(231, 172, 8);
+  font-size: 50px;
+  text-align: center;
+  font-family: "Lobster", cursive;
+  text-shadow: 3px 3px 6px #040202;
+}
+
+.target {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 150px;
+}
+
+.tarjeta {
+  width: 250px;
+  margin: 20px;
+  background-color: rgba(188, 85, 240, 0.951);
+  padding: 10px;
+  font-family: "Lobster", cursive;
+  border: none;
+  border-radius: 6px;
+  color: azure;
+  box-shadow: 5px 5px 32px 4px #000000;
+}
+.tarjeta img {
+  width: 100%;
+  border-radius: 5px;
+}
+.tarjeta ul {
+  list-style: none;
+}
+.tarjeta h3 {
+  font-size: 20px;
+}
+.formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.formulario h2 {
+  color: rgb(231, 172, 8);
+  font-size: 50px;
+  text-align: center;
+  font-family: "Lobster", cursive;
+  text-shadow: 3px 3px 6px #040202;
+}
+.formulario .mapa-pedido {
+  width: 364px;
+  height: 200px;
+  padding: 20px;
+}
+
+.usuario {
+  border: 3px solid #060404;
+  border-radius: 5px;
+  margin: 10px;
+  background-color: rgba(188, 85, 240, 0.951);
+  padding: 20px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  box-shadow: 5px 5px 32px 4px #000000;
+}
+.usuario h3 {
+  color: rgb(231, 172, 8);
+  font-size: 30px;
+  font-family: "Lobster", cursive;
+  text-shadow: 3px 3px 6px #040202;
+}
+.usuario .barras {
+  width: 100%;
+  margin-bottom: 16px;
+  padding: 10px;
+  border-radius: 3px;
+  font-family: "Lobster", cursive;
+  font-size: 18px;
+}
+
+.pie-de-pagina {
+  background-color: rgba(188, 85, 240, 0.951);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 32px;
+}
+.pie-de-pagina .datos {
+  font-size: 15px;
+  color: azure;
+  display: block;
+  align-items: center;
+  font-family: "Lobster", cursive;
+  display: flex;
+  flex-direction: row;
+}
+.pie-de-pagina .mapa-folder {
+  width: 150px;
+  height: 150px;
+  border: 5px solid #040202;
+  background-color: rgba(188, 85, 240, 0.951);
+  border-radius: 10px;
+  margin: 5px;
+}
+.pie-de-pagina .logo-insta {
+  width: 50px;
+  height: 50px;
+  border: 5px solid #040202;
+  border-radius: 15px;
+  box-shadow: 5px 5px 32px 4px #000000;
+}
+.pie-de-pagina .logo-face {
+  width: 50px;
+  height: 50px;
+  border: 5px solid #040202;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 5px 5px 32px 4px #000000;
+}
+.pie-de-pagina .logo-twitter {
+  width: 50px;
+  height: 50px;
+  border: 5px solid #040202;
+  border-radius: 15px;
+  box-shadow: 5px 5px 32px 4px #000000;
+}
+
+.quienessomos {
+  color: rgb(231, 172, 8);
+  font-size: 50px;
+  text-align: center;
+  font-family: "Lobster", cursive;
+  text-shadow: 3px 3px 6px #040202;
+}
+
+.carousel-item {
+  height: auto;
+  object-fit: cover;
+}
+
+.descripcion {
+  font-family: "Lobster", cursive;
+  text-align: center;
+  padding: 20px;
+  border: solid 3px #000000;
+  border-radius: 5px;
+}
+
+/*# sourceMappingURL=style.css.map */

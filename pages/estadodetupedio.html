@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu pedido</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="shortcut icon" href="../multimedia/img/vestir.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://kit.fontawesome.com/3721647324.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1 class="tienda">Tienda Paranoia</h1>
+        <nav class="navegador">
+            <i class="fa-solid fa-bars"></i>
+            <ul>
+                <li><a href="../index.html">Catalogo</a></li>
+                <li><a href="./estadodetupedio.html">Estado de tu pedido</a></li>
+                <li> <a href="./quienesomos.html">¿Quienes somos?</a></li>
+                <li><a href="#datos-contactos">Datos de contactos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="formulario">
+        <h2>Estado de tu pedido</h2>
+        <section class="usuario">
+            <h3>Datos del pedido:</h3>
+                <input class="barras" type="nombres" id="nombres" placeholder="Nombres" required>
+                <input class="barras" type="apellidos" id="apellidos" placeholder="Apellidos" required>
+                <input class="barras" type="correo" id="correo" placeholder="Correo electronico" required>
+                <input class="barras" type="direccion" id="direccion" placeholder="Direccion" required>
+                <input class="barras"type="codigo" id="codigo" placeholder="Codigo unico de compra" required>
+            <button type="submit">Ver estado</button>
+        </section>
+        <iframe class="mapa-pedido" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.2001327927387!2d-70.60350199999999!3d-33.47013990000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cfe8ac51bf63%3A0x2b763ecae241efcf!2sGuillermo%20Mann%202778%2C%207780600%20%C3%91u%C3%B1oa%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses!2scl!4v1687499703504!5m2!1ses!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </main>
+    <footer class="pie-de-pagina">
+        <div class="datos" id="datos-contactos">
+            <div class="contacto">
+            <h2 class="contacto">Datos de contacto</h2>
+            <p>Direccion: Guillermo Mann 2778, Ñuñoa</p>
+            <p>Telefono: +56977885552</p>
+            <p>Mail: tienda_paranoia@gmail.com</p>
+            </div>
+            <iframe class="mapa-folder" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.2001338149885!2d-70.60607692460106!3d-33.470139873381775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cfe8ac51bf63%3A0x2b763ecae241efcf!2sGuillermo%20Mann%202778%2C%207780600%20%C3%91u%C3%B1oa%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1688164908145!5m2!1ses-419!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="redes-sociales">
+            <a href="https://www.instagram.com/tienda_paranoia/?igshid=MzRlODBiNWFlZA%3D%3D" target="_blank"><img class="logo-insta" src="../multimedia/img/logo-de-instagram.jpg" alt="logo de instagram"></a>
+            <img class="logo-face" src="../multimedia/img/logo_face.png" alt="logo de facebook">
+            <img class="logo-twitter" src="../multimedia/img/logo_twitter.jpg" alt="logo de twtter">
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
