@@ -10,6 +10,15 @@
 
     ); 
     gap: 32px;
+    .tienda{
+        color: rgb(231, 172, 8);
+        background-color: $bg-color;
+        text-align: center;
+        font-size: 60px;
+        font-family: 'Lobster', cursive;
+        text-shadow:$sombreado;
+        padding-left: 20px;
+    }
     .datos{
         font-size: 20px;
         color: azure;
@@ -18,16 +27,10 @@
         font-family: 'Bebas Neue', sans-serif;
         display: flex;
         flex-direction: row;
+        margin-bottom: 20px;
     
     }
-    .mapa-folder{
-        width: 150px;
-        height: 150px;
-        border: 5px solid #040202;
-        background-color: $bg-color;
-        border-radius: 10px;
-        margin: 5px;
-    }
+    
     .logo-insta{
         width: 50px;
         height: 50px;
