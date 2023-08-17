@@ -9,11 +9,12 @@
     display: flex;
     flex-wrap:wrap;
     justify-content: space-around;
-    gap: 150px;       
+    gap: 150px;
+    text-align: center      
 }
 
 .tarjeta{
-    @include tarjeta(250px);
+    @include tarjeta(300px);
     img{
         width: 100%;
         border-radius: 5px;   

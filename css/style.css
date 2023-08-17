@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -19,7 +20,7 @@
 
 .tarjeta select {
   background-color: rgb(231, 172, 8);
-  padding: 5px 5px;
+  padding: 10px 17px;
   border-radius: 5px;
   border: none;
   margin: 5px;
@@ -53,7 +54,7 @@
   display: block;
   padding: 10px 10px;
   font-size: 20px;
-  font-family: "Lobster", cursive;
+  font-family: "Bebas Neue", sans-serif;
 }
 @media (max-width: 768px) {
   .navegador ul li a {
@@ -109,14 +110,15 @@
   flex-wrap: wrap;
   justify-content: space-around;
   gap: 150px;
+  text-align: center;
 }
 
 .tarjeta {
-  width: 250px;
+  width: 300px;
   margin: 20px;
   background-color: rgba(188, 85, 240, 0.951);
   padding: 10px;
-  font-family: "Lobster", cursive;
+  font-family: "Bebas Neue", sans-serif;
   border: none;
   border-radius: 6px;
   color: azure;
@@ -156,7 +158,7 @@
   margin: 10px;
   background-color: rgba(188, 85, 240, 0.951);
   padding: 20px;
-  width: 300px;
+  width: 350px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -174,7 +176,7 @@
   margin-bottom: 16px;
   padding: 10px;
   border-radius: 3px;
-  font-family: "Lobster", cursive;
+  font-family: "Bebas Neue", sans-serif;
   font-size: 18px;
 }
 
@@ -189,11 +191,11 @@
   gap: 32px;
 }
 .pie-de-pagina .datos {
-  font-size: 15px;
+  font-size: 20px;
   color: azure;
   display: block;
   align-items: center;
-  font-family: "Lobster", cursive;
+  font-family: "Bebas Neue", sans-serif;
   display: flex;
   flex-direction: row;
 }
@@ -242,7 +244,7 @@
 }
 
 .descripcion {
-  font-family: "Lobster", cursive;
+  font-family: "Bebas Neue", sans-serif;
   text-align: center;
   padding: 20px;
   border: none;
