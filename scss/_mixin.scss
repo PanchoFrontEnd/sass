@@ -1,8 +1,8 @@
 @mixin tarjeta($width){
     width:$width ;
-    margin: 20px;
+    height: auto;
+    margin: 25px;
     background-color: $bg-color;
-    padding: 10px;
     font-family: 'Bebas Neue', sans-serif;
     border: none;
     border-radius: 6px;

@@ -23,7 +23,7 @@
   padding: 10px 17px;
   border-radius: 5px;
   border: none;
-  margin: 5px;
+  margin: 20px;
   transition: 0, 5s;
 }
 .tarjeta select:hover {
@@ -109,15 +109,14 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  gap: 150px;
   text-align: center;
 }
 
 .tarjeta {
   width: 300px;
-  margin: 20px;
+  height: auto;
+  margin: 25px;
   background-color: rgba(188, 85, 240, 0.951);
-  padding: 10px;
   font-family: "Bebas Neue", sans-serif;
   border: none;
   border-radius: 6px;
@@ -126,14 +125,20 @@
 }
 .tarjeta img {
   width: 100%;
-  border-radius: 5px;
 }
 .tarjeta ul {
   list-style: none;
 }
 .tarjeta h3 {
   font-size: 20px;
+  padding: 5px;
+  margin: 5px;
 }
+.tarjeta p {
+  padding: 5px;
+  margin: 5px;
+}
+
 .formulario {
   display: flex;
   flex-direction: column;
@@ -186,7 +191,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 30px;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 32px;
 }
@@ -200,14 +205,12 @@
   padding-left: 20px;
 }
 .pie-de-pagina .datos {
-  font-size: 20px;
+  font-size: 25px;
   color: azure;
-  display: block;
   align-items: center;
   font-family: "Bebas Neue", sans-serif;
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
+  flex-direction: column;
   margin-bottom: 20px;
 }
 .pie-de-pagina .logo-insta {

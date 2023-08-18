@@ -9,27 +9,32 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    gap: 150px;
     text-align: center      
 }
 
 .tarjeta{
     @include tarjeta(300px);
     img{
-        width: 100%;
-        border-radius: 5px;   
+        width:100%;
+        
     }
     ul{
         list-style: none;
     }
     h3{
         font-size: 20px;
+        padding: 5px;
+        margin: 5px;
     }
     button{
         @extend %button;
     }
     select{
        @extend %select;
+    }
+    p{
+       padding: 5px;
+       margin: 5px;
     }
 
 }

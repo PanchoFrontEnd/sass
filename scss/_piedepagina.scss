@@ -4,7 +4,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 30px;
     grid-template-columns:repeat(
         auto-fit,minmax(150px, 1fr)
 
@@ -20,14 +20,12 @@
         padding-left: 20px;
     }
     .datos{
-        font-size: 20px;
+        font-size: 25px;
         color: azure;
-        display: block;
         align-items: center;
         font-family: 'Bebas Neue', sans-serif;
         display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
+        flex-direction: column;
         margin-bottom: 20px;
     
     }
