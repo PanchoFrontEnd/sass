@@ -141,8 +141,8 @@
 
 .formulario {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  flex-direction: column;
 }
 .formulario h2 {
   color: rgb(231, 172, 8);
@@ -150,11 +150,6 @@
   text-align: center;
   font-family: "Lobster", cursive;
   text-shadow: 3px 3px 6px #040202;
-}
-.formulario .mapa-pedido {
-  width: 364px;
-  height: 200px;
-  padding: 20px;
 }
 
 .usuario {
@@ -168,13 +163,13 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  box-shadow: 5px 5px 32px 4px #000000;
 }
 .usuario h3 {
   color: rgb(231, 172, 8);
   font-size: 30px;
   font-family: "Lobster", cursive;
   text-shadow: 3px 3px 6px #040202;
+  text-align: center;
 }
 .usuario .barras {
   width: 100%;

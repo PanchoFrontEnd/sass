@@ -1,8 +1,7 @@
 .formulario{
     display: flex;
-    flex-direction: column;
     align-items: center;
-
+    flex-direction: column;
     h2{
         color: rgb(231, 172, 8);
         font-size: 50px;
@@ -10,12 +9,8 @@
         font-family: 'Lobster', cursive;
         text-shadow:$sombreado;
     }
-    .mapa-pedido{
-        width: 364px;
-        height: 200px; 
-        padding: 20px;
-    }
     
+
 }
 .usuario{
     border: 3px solid #060404;
@@ -27,13 +22,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
-    box-shadow:$shadowm ;
+    flex-wrap: wrap;;
     h3{
         color: rgb(231, 172, 8);
         font-size: 30px;
         font-family: 'Lobster', cursive;
         text-shadow:$sombreado;
+        text-align: center
     }
     button{
         @extend %button;
